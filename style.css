@@ -129,6 +129,21 @@ h2 {
     }
 }
 
+
+.endImg{
+    height: 20vh;
+}
+.endH2{
+    font-size: 1.5rem;
+    width: 80vw;
+}
+.handImg{
+    height: 30vh;
+}
+#button.endButton{
+    font-size: 1rem;
+}
+
 @media (max-width: 500px) {
     .endImg{
         height: 150px;
