@@ -20,7 +20,8 @@ body {
 
 .game {
     background-image: url("./assets/zombie-shoot-game-background.png");
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     cursor: url('https://img.informer.com/icons/png/32/113/113532.png') 16 16, crosshair;
     height: 100vh;
     width: 100vw;
@@ -102,14 +103,56 @@ h2 {
 
 .win-bg,
 .gameover-bg {
+    text-align: center;
     background-image: url(./assets/zombie-shoot-background.png);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 100vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 875px) {
+    #handImg{
+        height: 200px;
+    }
+    .endImg{
+        height: 200px;
+    }
+    .endH2{
+        width: 80vw;
+    }
+    #button.endButton{
+
+    }
+}
+
+@media (max-width: 500px) {
+    .endImg{
+        height: 150px;
+    }
+    .endH2{
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+    #button.endButton{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .endImg{
+        height: 100px;
+    }
+    .endH2{
+        font-size: 1.5rem;
+        width: 80vw;
+    }
+    #button.endButton{
+        font-size: 1rem;
+    }
 }
 
 @keyframes flying {
