@@ -103,6 +103,7 @@ h2 {
 
 .win-bg,
 .gameover-bg {
+    position: relative;
     text-align: center;
     background-image: url(./assets/zombie-shoot-background.png);
     background-size: cover;
