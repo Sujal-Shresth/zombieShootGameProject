@@ -173,6 +173,9 @@ h2 {
     #button.endButton{
         font-size: 1rem;
     }
+    .zombie-image{
+        height: 10vw;
+    }
 }
 
 @keyframes flying {
